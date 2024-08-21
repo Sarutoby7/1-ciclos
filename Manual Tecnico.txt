@@ -23,3 +23,6 @@ o	Finalmente, se actualiza el contenido del contenedor resultado con el conteo g
 
 Este ejercicio básico introduce el uso de ciclos en JavaScript para generar y
 mostrar secuencias numéricas en una página web interactiva.
+
+github:
+https://sarutoby7.github.io/1-ciclos/
