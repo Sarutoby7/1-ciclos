@@ -1,0 +1,25 @@
+Manual Técnico
+1.	HTML (index.html):
+o	Se utiliza una estructura básica de HTML con una sección (<section>) que contiene un título, 
+    un formulario con un campo de entrada numérico y un botón para iniciar el contador.
+o	El campo de entrada (<input>) permite al usuario definir el número máximo del contador.
+o	El botón (<button>) activa el conteo al hacer clic.
+o	El artículo (<article>) con el id resultado muestra el resultado del conteo.
+
+2.	CSS (estilos.css):
+o	El cuerpo de la página tiene un estilo básico con centrado de texto y un color de fondo claro.
+o	Se estilizan los elementos como el título, la sección principal,
+    los campos de entrada y el botón para mejorar la presentación visual.
+o	El contenedor del resultado tiene un color azul y un tamaño de fuente mayor para destacarlo.
+
+3.	JavaScript (script.js):
+o	Se obtienen los elementos del DOM (botonIniciar, campoNumeroMaximo, contenedorResultado)
+    utilizando getElementById.
+o	Se agrega un eventListener al botón que escucha el evento click.
+o	Al hacer clic, se obtiene el valor del campo de entrada (campoNumeroMaximo.value),
+    se convierte a entero usando parseInt, y se almacena en la variable numeroMaximo.
+o	Se utiliza un ciclo for que va desde 1 hasta numeroMaximo, concatenando los números en una cadena (resultado).
+o	Finalmente, se actualiza el contenido del contenedor resultado con el conteo generado.
+
+Este ejercicio básico introduce el uso de ciclos en JavaScript para generar y
+mostrar secuencias numéricas en una página web interactiva.
